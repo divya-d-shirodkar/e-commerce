@@ -10,7 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.7.9",
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "wiredep": "^4.0.0"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
