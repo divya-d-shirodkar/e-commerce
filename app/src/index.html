@@ -9,8 +9,14 @@
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <!--endinject-->
 </head>
+
 <body>
-<h2>Something Interesting !!!!</h2>>
+
+<div  ng-app="ecommerce">
+
+<div ui-view></div>
+
+</div>
 
 <!--bower:js-->
 <script src="libs/angular/angular.js"></script>
@@ -18,8 +24,13 @@
 <script src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <!--endbower-->
 
+
 <!--inject:js-->
 <script src="/js/ecommerce.js"></script>
+<script src="/js/ecommerce.router.js"></script>
+<script src="/js/controller/login.controller.js"></script>
+<script src="/js/services/user-authentication.service.js"></script>
+<script src="/js/services/user-registeration.service.js"></script>
 <!--endinject-->
 </body>
 </html>
